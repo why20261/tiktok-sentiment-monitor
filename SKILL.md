@@ -1,8 +1,8 @@
 ---
 name: tiktok-sentiment-monitor
-description: TikTok舆情监测助手。针对任意关键词获取TikTok作品数据、详情、互动数据、评论数据，基于TikTok实时数据，综合分析舆情健康、情感占比、负面信息、事件时间、热度排行、竞品口碑对比与风险建议等，进行分析并输出舆情报告。提供3个能力①关键词搜索（可按点赞/相关度排序、发布时间筛选）②博主作品获取，按主页链接或用户名批量获取公开作品列表，支持最新/最热排序 ③视频评论抓取，按视频链接或作品 ID 获取评论内容、评论者与互动数据，输出结构化 JSON（含作者、互动数据、标签、链接）。当用户需要搜TikTok视频、抓博主作品、看TikTok评论、做竞品/对标账号监控、短视频选题调研、评论舆情分析、热点追踪、爆款挖掘时使用。
+description: "TikTok舆情监测助手。针对任意关键词获取TikTok作品数据、详情、互动数据、评论数据，基于TikTok实时数据，综合分析舆情健康、情感占比、负面信息、事件时间、热度排行、竞品口碑对比与风险建议等，进行分析并输出舆情报告。提供3个能力①关键词搜索（可按点赞/相关度排序、发布时间筛选）②博主作品获取，按主页链接或用户名批量获取公开作品列表，支持最新/最热排序 ③视频评论抓取，按视频链接或作品 ID 获取评论内容、评论者与互动数据，输出结构化 JSON（含作者、互动数据、标签、链接）。当用户需要搜TikTok视频、抓博主作品、看TikTok评论、做竞品/对标账号监控、短视频选题调研、评论舆情分析、热点追踪、爆款挖掘时使用。"
 license: MIT
-version: "1.1.0"
+version: 1.1.1
 metadata:
   openclaw:
     emoji: "🎵"
@@ -19,7 +19,7 @@ metadata:
     bins: ["node"]
     env: ["GUAIKEI_API_TOKEN"]
   env_desc:
-    GUAIKEI_API_TOKEN: "TikTok 数据 API 访问令牌。未配置时无法调用接口；可通过 https://www.guaikei.com 开通，或联系开发者（微信 13395823479，备注：TikTok 技能）。"
+    GUAIKEI_API_TOKEN: "TikTok 数据 API 访问令牌。未配置时无法调用接口；可通过 https://www.guaikei.com 开通并获取支持。"
   keywords:
     - "TikTok"
     - "tiktok"
@@ -37,63 +37,63 @@ metadata:
     - "内容创作"
     - "商业运营"
   tags:
-    - "TikTok"
-    - "tiktok"
-    - "抖音国际版"
-    - "关键词搜索"
-    - "视频评论"
-    - "博主作品"
-    - "竞品分析"
-    - "选题调研"
-    - "舆情分析"
-    - "爆款挖掘"
-    - "KOL筛选"
-    - "海外短视频"
-    - "TikTok数据"
-    - "TikTok搜索"
-    - "TikTok评论"
-    - "TikTok舆情监测"
-    - "TikTok作品"
-    - "TikTok达人"
-    - "TikTok达人数据"
-    - "TikTok达人作品"
-    - "TikTokKOL"
-    - "TikTokKOL作品"
-    - "TikTok博主"
-    - "TikTok博主作品"
-    - "TikTok网红"
-    - "TikTok竞品分析"
-    - "TikTok数据分析"
-    - "TikTok选题"
-    - "TikTok爆款"
-    - "TikTok舆情监控"
-    - "TikTok视频下载"
-    - "TikTok运营工具"
-    - "TikTok关键词挖掘"
-    - "TikTok舆情"
-    - "TikTok内容分析"
-    - "评论区洞察"
-    - "短视频运营"
-    - "短视频数据"
-    - "跨境营销"
-    - "海外社媒"
-    - "红人营销"
-    - "网红筛选"
-    - "营销分析"
-    - "舆情数据获取"
-    - "content-analysis"
-    - "competitor-analysis"
-    - "influencer-tracking"
-    - "social-listening"
-    - "social-media-analytics"
-    - "short-video"
-    - "short-video-marketing"
-    - "content-discovery"
-    - "video-search"
-    - "viral-content"
-    - "market-research"
-    - "data-scraping"
-    - "api-wrapper"
+    - TikTok
+    - tiktok
+    - 抖音国际版
+    - 关键词搜索
+    - 视频评论
+    - 博主作品
+    - 竞品分析
+    - 选题调研
+    - 舆情分析
+    - 爆款挖掘
+    - KOL筛选
+    - 海外短视频
+    - TikTok数据
+    - TikTok搜索
+    - TikTok评论
+    - TikTok舆情监测
+    - TikTok作品
+    - TikTok达人
+    - TikTok达人数据
+    - TikTok达人作品
+    - TikTokKOL
+    - TikTokKOL作品
+    - TikTok博主
+    - TikTok博主作品
+    - TikTok网红
+    - TikTok竞品分析
+    - TikTok数据分析
+    - TikTok选题
+    - TikTok爆款
+    - TikTok舆情监控
+    - TikTok视频下载
+    - TikTok运营工具
+    - TikTok关键词挖掘
+    - TikTok舆情
+    - TikTok内容分析
+    - 评论区洞察
+    - 短视频运营
+    - 短视频数据
+    - 跨境营销
+    - 海外社媒
+    - 红人营销
+    - 网红筛选
+    - 营销分析
+    - 舆情数据获取
+    - content-analysis
+    - competitor-analysis
+    - influencer-tracking
+    - social-listening
+    - social-media-analytics
+    - short-video
+    - short-video-marketing
+    - content-discovery
+    - video-search
+    - viral-content
+    - market-research
+    - data-scraping
+    - api-wrapper
   schemas:
     - name: "输出信封"
       file: "assets/output_envelope.schema.json"
@@ -117,9 +117,10 @@ metadata:
     - "这条 TikTok 视频评论区在说什么，帮我归纳舆情 → node scripts/tiktok/comment-cli.js --url \"https://www.tiktok.com/@username/video/1234567890123456789\" --limit 40"
     - "盯一下这个竞品账号最近发了什么 → node scripts/tiktok/post-cli.js --url \"https://www.tiktok.com/@competitor\" --limit 10"
 ---
+
 # 🎯 TikTok定向舆情监测助手
 
-给一个关键词或一条链接，拿回 TikTok 公开视频和评论。不登录，不发布。结果是一份 JSON。
+**TikTok定向舆情监测助手**面向舆情与口碑场景：给一个关键词或一条链接，即可只读拿回 TikTok 公开视频与评论，不登录、不发布，输出结构化 JSON，便于情感占比、负面信息与竞品口碑等后续分析。
 
 | 你要做的事 | 用哪个命令 | 你拿到什么 |
 | --- | --- | --- |
@@ -143,7 +144,7 @@ metadata:
 同一组参数再次执行时，服务端会复用还没过期的任务：搜索大约 9 分钟内，作品和评论大约 20 分钟内，不会另开一条。搜索如果已经等到 `TIMEOUT`，9 分钟的复用窗口通常已经过去，立刻重跑可能新建一条任务。
 
 - 没有关键词或链接就先问，不要编造
-- 搜索不传 `--limit` 是 10 条。用户说「全部」再加大，不要自行抓 10000 条
+- 搜索不传 `--limit` 是 10 条。用户说「全部」再加大，不要自行抓 10000 条。**包月 Token** 搜索/作品勿超 30、评论勿超 40，否则 `PLAN_LIMIT`
 - `status=empty` 且退出码 0 是「接口已经完成，没有结果」，不是命令失败
 - 搜索若一直处理中直到 `TIMEOUT`，可能是没有可保存的结果。告诉用户换关键词或稍后再试，不要立刻连打
 
@@ -191,6 +192,8 @@ metadata:
 
 枚举和数量不在允许范围内时，命令直接失败（退出码 2，`INVALID_ARGS`），不会改成默认值再请求。三个命令都支持 `--help` / `-h`：帮助打在 stderr，退出码 0，stdout 为空。短参数大小写都可以。含空格的关键词用双引号包成一个参数。关键词以 `-` 开头时写成 `--keyword=-AI`，或 `node scripts/tiktok/search-cli.js -- -AI`。完整字段见 `assets/*_cli_req.schema.json` 与 [references/options.md](references/options.md)。
 
+**套餐双上限（重要）**：技能侧硬上限为 10000（按量 Token）。**包月 Token** 超限会返回 `PLAN_LIMIT`（后端 errcode 14），不要当网络错误重试：搜索/作品最多 **30**，评论最多 **40**。具体以官网与本次 `message` 为准。
+
 ### 3.1 🔍 关键词搜索
 
 | 参数 | 必填 | 取值 | 默认 |
@@ -198,7 +201,7 @@ metadata:
 | `--keyword` `-k` | 是 | 1–100 个字符，不能是链接，不含 `< > " '` | — |
 | `--sort` `-s` | 否 | `0` 相关度 / `1` 最多点赞 | `0` |
 | `--time` `-t` | 否 | `0` 全部 / `1` 近 1 日 / `7` 近 7 日 / `30` 近 1 月 / `90` 近 3 月 / `180` 近 6 月 | `0` |
-| `--limit` `-l` | 否 | 整数 1–10000。包月 TOKEN 超过 30 会失败 | `10` |
+| `--limit` `-l` | 否 | 整数 1–10000（**包月 Token 实际最多 30**） | `10` |
 
 ### 3.2 🦸 博主作品
 
@@ -206,14 +209,14 @@ metadata:
 | --- | --- | --- | --- |
 | `--url` `-u` | 是 | 主页链接、`@用户名` 或整段 `sec_uid`，最长 255 | — |
 | `--sort` `-s` | 否 | `0` 最新 / `1` 最热 | `0` |
-| `--limit` `-l` | 否 | 整数 1–10000。包月 TOKEN 超过 30 会失败 | `10` |
+| `--limit` `-l` | 否 | 整数 1–10000（**包月最多 30**） | `10` |
 
 ### 3.3 💬 视频评论
 
 | 参数 | 必填 | 取值 | 默认 |
 | --- | --- | --- | --- |
 | `--url` `-u` | 是 | 视频链接或纯数字 `aweme_id`，最长 255 | — |
-| `--limit` `-l` | 否 | 整数 1–10000。包月 TOKEN 超过 40 会失败 | `10` |
+| `--limit` `-l` | 否 | 整数 1–10000（**包月最多 40**） | `10` |
 
 ## 4. 📦 读结果
 
@@ -226,7 +229,7 @@ metadata:
   "message": "搜索任务完成",
   "timestamp": "2026/10/26 16:20:00",
   "request": { "command": "search", "keyword": "AI", "sort": 1, "time": 0, "limit": 20 },
-  "metadata": { "skill_version": "1.1.0", "runtime_version": "22.22.2", "execution_time": 8421 },
+  "metadata": { "skill_version": "1.1.1", "runtime_version": "22.22.2", "execution_time": 8421 },
   "results": [{ "aweme_id": "123", "desc": "...", "digg_count": 100 }]
 }
 ```
@@ -248,7 +251,7 @@ metadata:
 | 3 | `AUTH_REQUIRED` / `AUTH_ERROR` | 停止重试，让用户配置 `GUAIKEI_API_TOKEN` |
 | 1 | `TIMEOUT` | 任务仍在处理，搜索也可能是没有可保存的结果。不要立刻重跑。搜索的复用窗口大约只有 9 分钟，等满超时后再跑可能新建一条任务 |
 | 1 | `NETWORK_ERROR` / `HTTP_5xx` / `HTTP_429` | 命令内部已经重试过。退出后再失败就告诉用户稍后再试 |
-| 1 | `"14"` | 包月条数超限。搜索和作品降到 30 及以下，评论降到 40 及以下，再试一次 |
+| 1 | `PLAN_LIMIT` | 套餐单次条数超限（常见于包月）。**禁止同参重试**。转述 `message`；可建议降 `--limit`（搜索/作品≤30，评论≤40）或到官网升级按量；**须用户同意后再跑** |
 | 1 | `"16"`（搜索）或 `"15"`（作品、评论） | 余额不足。转告 `message`，不要改参数连打 |
 | 1 | `"1"` 或 `"2"` | 提交过于密集。等一会儿再试，不要改成另一组参数立刻连打 |
 | 1 | 其它十进制数字 | 把 `message` 原样转告 |
@@ -262,4 +265,4 @@ metadata:
 
 成功结果默认不写文件。需要留底时设置 `TT_GUAIKEI_ENABLE_LOG=1`，文件写到系统临时目录的 `tiktok-guaikei/logs/`。POSIX 上权限是仅当前用户可读写；Windows 不使用这组权限位，靠临时目录本身的用户隔离。
 
-开通 token 或人工支持：[TikTok定向舆情监测助手官网](https://www.guaikei.com) ，微信 `13395823479`（备注：TikTok 技能）。
+开通 token 或更多帮助：[TikTok定向舆情监测助手官网](https://www.guaikei.com)。
